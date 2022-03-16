@@ -1,0 +1,39 @@
+body {
+  background-color: #fbf3d9;
+  margin: 0;
+}
+
+mark {
+  background-color: #00ffff;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #ff7700;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #00ffff;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: ##555;
+  color: white;
+}
